@@ -1,0 +1,9 @@
+/static/css/bootstrap.min.css
+/lib/css/font-awesome-4.6.3_2/css/font-awesome.css
+/css/2.0/trillo.css
+/css/2.0/trillo-theme.css
+/css/2.0/trillo-bootstrap4.css
+static/css/bootstrap-select.css
+static/css/custom-fonticons.css
+static/css/style.default.css
+static/css/custom.css

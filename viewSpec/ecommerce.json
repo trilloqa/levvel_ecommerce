@@ -1,0 +1,67 @@
+{
+  "name" : "ecommerce",
+  "type" : "page",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "headerRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "header_1",
+          "alignment" : "left",
+          "autoNav" : false,
+          "flexGrow" : "1",
+          "reference" : "header",
+          "tag" : "userDefined",
+          "trigger" : "_initial_",
+          "type" : "view"
+        }
+      ],
+      "designTimeHeight" : "49px",
+      "tag" : "templateE",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "autoNav" : false,
+      "childrenSpecs" : [
+        {
+          "name" : "mainContentArea",
+          "autoNav" : false,
+          "childrenSpecs" : [
+            {
+              "name" : "Cart_1",
+              "alignment" : "top",
+              "autoNav" : false,
+              "flexGrow" : "1",
+              "reference" : "Cart",
+              "tag" : "userDefined",
+              "trigger" : "_initial_/header:Card",
+              "type" : "view"
+            },
+            {
+              "name" : "CatalogGrid_1",
+              "alignment" : "top",
+              "autoNav" : false,
+              "flexGrow" : "1",
+              "reference" : "CatalogGrid",
+              "tag" : "userDefined",
+              "trigger" : "_initial_/home_",
+              "type" : "view"
+            }
+          ],
+          "designTimeHeight" : "100px",
+          "flexGrow" : "1",
+          "main" : true,
+          "tag" : "templateE",
+          "type" : "column"
+        }
+      ],
+      "flexGrow" : "1",
+      "main" : true,
+      "tag" : "templateE",
+      "type" : "row"
+    }
+  ]
+}

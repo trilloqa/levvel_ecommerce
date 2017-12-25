@@ -1,0 +1,26 @@
+{
+  "name" : "CatalogGrid",
+  "type" : "grid",
+  "fieldSpecs" : [
+    {
+      "name" : "Header_1",
+      "displayName" : "Header_1",
+      "type" : "header"
+    },
+    {
+      "name" : "Title_1",
+      "displayName" : "Title_1",
+      "type" : "title"
+    },
+    {
+      "name" : "TextContent_1",
+      "displayName" : "TextContent_1",
+      "type" : "content"
+    },
+    {
+      "name" : "TextContent_2",
+      "displayName" : "TextContent_2",
+      "type" : "content"
+    }
+  ]
+}

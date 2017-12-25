@@ -1,0 +1,80 @@
+<section class="shopping-cart" name="Cart" nm="Cart">
+  <div class="container">
+    <div class="basket">
+      <div class="basket-holder" data-container="">
+        <div class="basket-header" data-table-header="">
+          <div class="row">
+            <div class="col-5">
+              Product
+            </div>
+            <div class="col-2">
+              Price
+            </div>
+            <div class="col-2">
+              Quantity
+            </div>
+            <div class="col-2">
+              Total
+            </div>
+            <div class="col-1 text-center">
+              Remove
+            </div>
+          </div>
+        </div>
+        <div class="basket-body">
+          <!-- Product-->
+          <div class="item" data-table-row="">
+            <div class="row d-flex align-items-center">
+              <div class="col-5">
+                <div class="d-flex align-items-center">
+                  <img src="{{{img}}}" alt="..." class="img-fluid">
+                  <div class="title">
+                    <a href="detail.html">
+                      <h5 data-child-type="readonly" nm="name" data-field-type="readonly">
+                        Lose Oversised Shirt
+                      </h5>
+                      <span class="text-muted">Size: Large</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <span data-child-type="readonly" nm="usdPrice" data-field-type="readonly">$65.00</span>
+              </div>
+              <div class="col-2">
+                <div class="d-flex align-items-center">
+                  <div class="quantity d-flex align-items-center">
+                    <div class="dec-btn">
+                      -
+                    </div>
+                    <span style="margin-left: 10px; margin-right: 10px" data-child-type="readonly" nm="quantity" data-field-type="readonly">1</span>
+                    <div class="inc-btn">
+                      +
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <span data-child-type="readonly" nm="totalPrice" data-field-type="readonly">$325.00</span>
+              </div>
+              <div class="col-1 text-center">
+                <i class="delete fa fa-trash"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="CTAs d-flex align-items-center justify-content-center justify-content-md-end flex-column flex-md-row">
+      <a href="shop.html" class="btn btn-template-outlined wide">
+        Continue Shopping
+      </a>
+      <a href="#" class="btn btn-template wide">
+        Update Cart
+      </a>
+    </div>
+  </div>
+</section>
+

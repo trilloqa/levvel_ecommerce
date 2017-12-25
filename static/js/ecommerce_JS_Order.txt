@@ -1,0 +1,8 @@
+ecommerce/static/js/bootstrap.js -
+ecommerce/static/js/bootstrap.min.js -
+ecommerce/static/js/bootstrap-select.js -
+ecommmerce/static/js/bootstrap-select.min.js -
+shared/static/js/shared_ns.js
+shared/static/js/sharedC.js
+shared/static/js/appC.js
+static/js/ecommerce_ns.js

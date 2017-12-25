@@ -1,0 +1,17 @@
+[
+{
+  path : "api/catalog/*",
+  location: "http://104.237.154.117:4985/catalog",
+  roles: "*"
+},
+{
+  path : "api/cart/",
+  location: "http://104.237.154.117:4985/cart/",
+  roles: "*"
+},
+{
+  path : "api/cart/*",
+  location: "http://104.237.154.117:4985/cart",
+  roles: "*"
+}
+]
