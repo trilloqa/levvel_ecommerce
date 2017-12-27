@@ -16,8 +16,9 @@
   headerC.loadData = function(pageNumber, requireClearing) {
     var self = this;
     var myDeferred = $.Deferred();
-
-    $.get("/api/catalog/_all_docs?include_docs=true", function(data) {
+    $.ajax({
+      url : "/api/catalog/_all_docs?include_docs=true"
+    }).done(function(data) {
       ecommerce._catalog = data;
       var items = data.rows;
       if (items) {
